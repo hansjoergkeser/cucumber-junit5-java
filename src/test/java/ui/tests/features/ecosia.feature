@@ -10,3 +10,5 @@ Scenario Outline: Where to find Ecosia
     | Chrome  |
     | Firefox |
     | Safari  |
+
+

@@ -15,8 +15,8 @@ public class StepDefs {
     }
 
     @When("I search for {string}")
-    public void i_search_for(String string) {
-        System.out.println("Search term: " + string);
+    public void i_search_for(String searchTerm) {
+        System.out.println("Search term: " + searchTerm);
     }
 
     @Then("I should see the ecosia website")
