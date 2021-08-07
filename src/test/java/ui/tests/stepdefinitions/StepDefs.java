@@ -3,6 +3,9 @@ package ui.tests.stepdefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import ui.pageobjects.Homepage;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class StepDefs {
 
@@ -18,8 +21,7 @@ public class StepDefs {
 
     @Then("I should see the ecosia website")
     public void i_should_see_the_ecosia_website() {
-        // Write code here that turns the phrase above into concrete actions
-//        throw new cucumber.api.PendingException();
+        assertTrue(new Homepage().isDisplayed(), "Not on ecosia homepage.");
     }
 
 }
