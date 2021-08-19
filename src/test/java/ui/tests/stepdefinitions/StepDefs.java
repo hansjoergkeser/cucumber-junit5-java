@@ -22,6 +22,7 @@ public class StepDefs {
 
     @Then("I should see the ecosia website")
     public void i_should_see_the_ecosia_website() {
+        // invert the result to see how cucumber displays failing test in log
         assertTrue(new Homepage().isDisplayed(), "Not on ecosia homepage.");
     }
 
