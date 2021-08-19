@@ -11,6 +11,7 @@ public class StepDefs {
 
     @Given("I opened {string}")
     public void i_opened(String browser) {
+        // Imagine test code here... this is just to demonstrate cucumber + junit + java
         System.out.println("Chosen browser: " + browser);
     }
 
