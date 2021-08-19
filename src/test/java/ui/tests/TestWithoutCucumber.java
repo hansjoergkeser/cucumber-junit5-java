@@ -9,9 +9,10 @@ public class TestWithoutCucumber {
     @Test
     void testSomething() {
         // java code...
-        // open browser
-        // search for something
-        // find something
+
+        // Angenommen: open browser
+        // Wenn: search for something
+        // Dann: find something
 
         assertTrue(true, "Something went wrong");
     }
