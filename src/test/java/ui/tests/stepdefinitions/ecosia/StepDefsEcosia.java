@@ -1,4 +1,4 @@
-package ui.tests.stepdefinitions;
+package ui.tests.stepdefinitions.ecosia;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -7,7 +7,7 @@ import ui.pageobjects.Homepage;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class StepDefs {
+public class StepDefsEcosia {
 
     @Given("I opened {string}")
     public void i_opened(String browser) {
