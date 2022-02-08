@@ -1,4 +1,4 @@
-package ui.pageobjects;
+package ui.pageobjects.ecosia;
 
 public class Homepage extends BasePage {
 

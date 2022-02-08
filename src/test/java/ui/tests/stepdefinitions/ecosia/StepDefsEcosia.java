@@ -3,7 +3,7 @@ package ui.tests.stepdefinitions.ecosia;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import ui.pageobjects.Homepage;
+import ui.pageobjects.ecosia.Homepage;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
